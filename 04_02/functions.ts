@@ -4,13 +4,17 @@ export function Demo() {
 
   const myFunction: VoidingFunction = () => {
     console.log("myFunction called!");
+    return 1;
   };
 
-  const myFunction2: NumberFunction = () => {
-    console.log("myFunction called!");
-    return 123;
+  const myNumberFunction: NumberFunction = () => {
+    return 2;
   };
 
-  myFunction2(10, "test");
+  const otherFunc = (zahl: number): string => {
+    return "string";
+  };
+
   myFunction();
+  myNumberFunction(10, "hallo");
 }

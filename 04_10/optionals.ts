@@ -9,11 +9,11 @@ export function Demo() {
   const thaiRestaurant: Restaurant = {
     name: "Thai Mo",
     location: "Pluto",
-    priceRange: "normal",
+    priceRange: "low",
     comment: "Lecker!",
   };
 
   const germanRestaurant: Partial<Restaurant> = {
-    comment: "hallo!",
+    comment: "eigentlich müsste hier gar nichts stehen",
   };
 }
