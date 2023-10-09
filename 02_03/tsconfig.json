@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES3",
-    "module": "CommonJS",
+    "target": "ESNext",
+    "module": "ESNext",
     "skipLibCheck": true
   },
   "include": ["demo.ts"]

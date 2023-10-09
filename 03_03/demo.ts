@@ -5,5 +5,5 @@ export function Demo() {
 
   let errorCode: "ERROR_404" | "ERROR_500" | "ERROR_503";
 
-  errorCode = "ERROR_500";
+  errorCode = "ERROR_404";
 }
